@@ -14,10 +14,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
-        <h1>Root Shared Layout</h1>
-        {children}
-      </body>
+      <body>{children}</body>
     </html>
   );
 }
